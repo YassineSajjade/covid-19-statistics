@@ -192,7 +192,7 @@ class PieChart extends Component {
        
         return (
             <div className="container">
-                <h3 className="mb-3 mt-3 text-center">COVID-19 CORONAVIRUS PANDEMIC test</h3>
+                <h3 className="mb-3 mt-3 text-center">COVID-19 CORONAVIRUS PANDEMIC</h3>
                 {h6}
                 <Pie data={this.state.data} options={this.state.options} />
                 <div className="row">
